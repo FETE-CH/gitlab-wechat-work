@@ -19,11 +19,12 @@
     },
     "wechat_robot": {
       "commandName": "Project",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "weatherforecast",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "POSTGESQL": "User ID=fete;Password=fete2333;Host=192.168.0.29;Port=5432;Database=test"
       }
     }
   }
